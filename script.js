@@ -1,3 +1,5 @@
+$('html, body').hide().fadeIn(2000);
+
 // Seleccionamos los elementos de la Galeria
 const modal = document.getElementById("modal-galeria");
 const imagenModal = document.getElementById("imagen-modal");
@@ -23,3 +25,13 @@ modal.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+//Script para el Loader
+/*
+window.addEventListener('load', Loader)
+var loader=document.getElementById('loader');
+function Loader(){
+    loader.style.visibility="hidden";
+    loader.style.opacity="0.5";
+    loader.style.opacity="0";
+}*/

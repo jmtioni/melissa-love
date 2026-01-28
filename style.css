@@ -11,7 +11,7 @@ body{
     background: #44094e;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;    
 }
 header{
     margin-top:10px;
@@ -287,21 +287,22 @@ textarea:focus{
     background:yellow;
     color:black;
     font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
     cursor: pointer;
     font-size: 20px;
     padding: 10px;
     border: none;
-    border-radius:20px;    
+    border-radius:20px;
 }
 .boton-continuar:hover{
     background-color:yellow;
     color: blue;
-    transform: scale(1.05);   
+    transform: scale(1.05);
 }
 .footer-formulario{
     width: 700px;
     color: black;
-    margin-top: 10px;    
+    margin-top: 10px;
     text-align: center;
     background-color:fuchsia;
     justify-content: center;
