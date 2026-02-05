@@ -26,6 +26,19 @@ modal.onclick = function(event) {
     }
 }
 
+//Script para Tienda
+function toggleFavorito(elemento) {
+    // .toggle añade la clase 'activo' si no la tiene, y la quita si ya la tiene
+    elemento.classList.toggle('activo');
+    
+    // Opcional: Mostrar un mensaje en consola para saber el estado
+    if(elemento.classList.contains('activo')) {
+        console.log("Añadido a favoritos");
+    } else {
+        console.log("Quitado de favoritos");
+    }
+}
+
 //Script para el Loader
 /*
 window.addEventListener('load', Loader)
