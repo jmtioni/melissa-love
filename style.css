@@ -255,10 +255,11 @@ aside{
     cursor: zoom-in;
 }
 .footer-galeria{
-    width: 1050px;
-    color: black;
+    width: 1050px;    
     margin: 5px;
     padding: 30px;
+    color: black;
+    background-color:fuchsia;
     text-align: center;    
     justify-content: center;
     align-items: center;
