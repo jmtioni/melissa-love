@@ -22,7 +22,7 @@ h1{
     color: deeppink;
 }
 h2{
-    font-size: 30px;    
+    font-size: 30px;
     color: red;
 }
 .banner{
@@ -132,11 +132,11 @@ aside{
 }
 .footer-index{
     width: 400px;
-    color: black;
     margin: 5px;
     padding: 30px;
-    text-align: center;
     background-color: fuchsia;
+    color: black;
+    text-align: center;
     justify-content: center;
     align-items: center;
     display: block;        
@@ -257,9 +257,9 @@ aside{
 .footer-galeria{
     width: 1050px;    
     margin: 5px;
-    padding: 30px;
-    color: black;
+    padding: 30px;    
     background-color:fuchsia;
+    color: black;
     text-align: center;    
     justify-content: center;
     align-items: center;
@@ -321,12 +321,12 @@ aside{
     display: block;
 }
 .footer-video{
-    width: 715px;
-    color: black;
+    width: 715px;    
     margin-top: 10px;
-    padding: 30px;
-    text-align: center;
+    padding: 30px;    
     background-color:fuchsia;
+    color: black;
+    text-align: center;
     justify-content: center;
     align-items: center;
     display: block;
@@ -385,11 +385,12 @@ textarea:focus{
     transform: scale(1.05);
 }
 .footer-formulario{
-    width: 700px;
-    color: black;
-    margin-top: 10px;
-    text-align: center;
+    width: 700px;    
+    padding: 30px;
+    margin-top: 10px;    
     background-color:fuchsia;
+    color: black;
+    text-align: center;
     justify-content: center;
     align-items: center;
     display: block;
@@ -397,7 +398,7 @@ textarea:focus{
 
 /*Mediaqueris para Celulares*/
 @media only screen and (max-width:480px){    
-    /*Estilos para Tienda Virtual*/
+    /*Mediaqueris Tienda Virtual*/
     .tienda{
         width: 390px;     
         padding: 5px;   
@@ -480,7 +481,8 @@ textarea:focus{
         justify-content: center;
         align-items: center;
         display: block;
-        }    
+        }
+
     /*Mediaqueris Galeria*/
     .banner{
         margin-bottom: 10px;
@@ -519,16 +521,17 @@ textarea:focus{
         cursor: zoom-in;
         }
     .footer-galeria{
-        width: 390px;
-        color: black;
+        width: 390px;        
         margin: 5px;
         padding: 30px;
+        background-color: fuchsia;
+        color: black;
         text-align: center;    
         justify-content: center;
         align-items: center;
         display: block;
         }
-    /*Estilos Modal Galeria*/
+    /*Mediaqueris Modal Galeria*/
     .modal{
         display: none;
         position: fixed;
@@ -557,6 +560,7 @@ textarea:focus{
         font-weight: bold;
         cursor: pointer;
         }
+
     /*Mediaqueris Video*/
     .video-container{
         max-width: 390px;    
@@ -583,17 +587,18 @@ textarea:focus{
         display: block;
         }
     .footer-video{
-        width: 390px;
-        color: black;
+        width: 390px;        
         margin-top: 10px;
-        padding: 30px;
-        text-align: center;
+        padding: 30px;        
         background-color:fuchsia;
+        color: black;
+        text-align: center;
         justify-content: center;
         align-items: center;
         display: block;
-        }    
-    /*Estilos para Formulario*/
+        }
+
+    /*Mediaqueris Formulario*/
     .suscripcion{
         width:390px;
         margin-top:10px;
@@ -645,12 +650,12 @@ textarea:focus{
         transform: scale(1.05);   
         }
     .footer-formulario{
-        width: 390px;
-        color: black;
+        width: 390px;        
         margin-top: 10px;
-        padding: 30px;
-        text-align: center;
+        padding: 30px;        
         background-color:fuchsia;
+        color: black;
+        text-align: center;
         justify-content: center;
         align-items: center;
         display: block;
